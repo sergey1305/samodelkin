@@ -1,0 +1,38 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Corbel, Trebuchet MS, Helvetica, Trebuchet, sans-serif;
+  font-size: 18pt;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 0.25em;
+}
+
+li,
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a {
+  color: tomato;
+}
+
+a:visited {
+  color: indianred;
